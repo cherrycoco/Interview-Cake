@@ -21,7 +21,7 @@ const bracketChecker = (str) => {
     }
   }
 
-  return (stack.length === 0) ? true : false;
+  return stack.length === 0;
 }
 
 console.log(bracketChecker('[{}]ds[]jfi('))

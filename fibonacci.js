@@ -1,4 +1,4 @@
-// recursion O(n^n)
+// recursion O(2^n)
 // const fibonacci = (n) => {
 //   if (n === 0) {
 //     return 0;
@@ -34,7 +34,7 @@ const cacheFibonacci = (n) => {
 
     return cache[n] = fib(n - 1) + fib(n - 2);
   }
-  
+
   return fib;
 }
 
